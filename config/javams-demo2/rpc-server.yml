@@ -1,0 +1,8 @@
+app: javams-demo2
+group: ad
+ownerName: '1213'
+ownerPhone: 138 2321 1111
+serviceConfigs:
+- address: 127.0.0.1:9091
+  serializerType: json
+  transportType: http

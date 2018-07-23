@@ -1,0 +1,9 @@
+apps:
+- name: javams-demo2
+  group: ad
+  app: javams-demo2
+  action: HelloProducer
+  serializerType: json # 支持 json 和 protostuff 两种，默认 protostuff
+  hostPorts:
+  - 127.0.0.1:9091 # 只支持 IP+port
+  transportType: http  # 支持 http、grpc 两种
